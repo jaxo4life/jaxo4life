@@ -1,4 +1,3 @@
-<!-- 封面 Banner -->
 <p align="center">
   
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi+there!+👋;I'm+jaxo;Full-stack+developer+%26+Blockchain+enthusiast;Always+learning+%26+building+🚀)
@@ -7,15 +6,13 @@
 
 ---
 
-<!-- GitHub Stats + 热力图 -->
-
 <p align="center">
   <img src="assets/github-card.svg" alt="GitHub Stats Card" width="95%">
 </p>
 
 ---
 
-### 📂 我的项目
+### 📂 My projects
 
 <p align="center">
   <a href="https://github.com/jaxo4life/XMark">
@@ -40,22 +37,20 @@
 
 ---
 
-<!-- 技能展示 -->
-### 🛠 技能栈  
+### 🛠 Skill stack  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,vue,nextjs,tailwind,html,css,python,solidity,docker,git,linux&perline=8" />
 </p>
 
 ---
 
-<!-- 联系方式 -->
-### 🌐 联系我
+### 🌐 Find me
 <p align="center">
   <a href="https://x.com/realjaxo"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 </p>
+
 ---
 
-<!-- 趣味彩蛋 -->
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
 </p>
