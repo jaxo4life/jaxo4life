@@ -34,7 +34,7 @@ async function fetchStats() {
   const contributions = user.public_repos * 10; // 简单示例
 
   return {
-    avatarUrl: "https://github.com/jaxo4life/jaxo4life/blob/main/assets/avatar.png",
+    avatarUrl: "https://raw.githubusercontent.com/jaxo4life/jaxo4life/main/assets/avatar.png",
     name: user.login,
     bio: user.bio || 'Full-stack & Blockchain',
     repos: user.public_repos,
@@ -51,46 +51,48 @@ function generateSVG({ avatarUrl, name, bio, repos, stars, followers, contributi
   name = escapeXML(name);
 
   return `
-<svg width="750" height="250" xmlns="http://www.w3.org/2000/svg">
+<svg width="750" height="260" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- 蓝黑渐变背景 -->
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#74dcc4;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4597e9;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0f2027;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#203a43;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5364;stop-opacity:1" />
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="rgba(0,0,0,0.3)"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="rgba(0,0,0,0.5)"/>
     </filter>
     <mask id="avatarMask">
-      <rect width="120" height="120" rx="60" ry="60" fill="white"/>
+      <circle cx="75" cy="130" r="60" fill="white"/>
     </mask>
   </defs>
 
-  <!-- 背景 -->
-  <rect x="10" y="10" rx="25" ry="25" width="730" height="230" fill="url(#grad)" filter="url(#shadow)"/>
+  <!-- 背景卡片 -->
+  <rect x="10" y="10" rx="20" ry="20" width="730" height="240" fill="url(#grad)" filter="url(#shadow)"/>
 
   <!-- 头像 -->
-  <image href="${avatarUrl}" x="30" y="65" width="120" height="120" mask="url(#avatarMask)"/>
+  <image href="${avatarUrl}" x="15" y="70" width="120" height="120" mask="url(#avatarMask)"/>
 
   <!-- 用户名和简介 -->
-  <text x="170" y="100" font-size="30" fill="white" font-family="Fira Code" font-weight="bold">${name}</text>
-  <text x="170" y="135" font-size="16" fill="white" font-family="Fira Code">${bio}</text>
+  <text x="160" y="115" font-size="28" fill="white" font-family="Fira Code, monospace" font-weight="bold">${name}</text>
+  <text x="160" y="145" font-size="16" fill="white" font-family="Fira Code, monospace">${bio}</text>
 
   <!-- 数据卡片 -->
-  <g font-family="Fira Code" fill="white" font-weight="bold">
-    <rect x="170" y="150" width="120" height="50" rx="12" ry="12" fill="rgba(255,255,255,0.2)"/>
-    <text x="180" y="180" font-size="18">Repos: ${repos}</text>
+  <g font-family="Fira Code, monospace" fill="white" font-weight="bold">
+    <rect x="160" y="170" width="120" height="45" rx="10" ry="10" fill="rgba(255,255,255,0.15)"/>
+    <text x="170" y="200" font-size="16">Repos: ${repos}</text>
 
-    <rect x="310" y="150" width="120" height="50" rx="12" ry="12" fill="rgba(255,255,255,0.2)"/>
-    <text x="320" y="180" font-size="18">Stars: ${stars}</text>
+    <rect x="295" y="170" width="120" height="45" rx="10" ry="10" fill="rgba(255,255,255,0.15)"/>
+    <text x="305" y="200" font-size="16">Stars: ${stars}</text>
 
-    <rect x="450" y="150" width="120" height="50" rx="12" ry="12" fill="rgba(255,255,255,0.2)"/>
-    <text x="460" y="180" font-size="18">Followers: ${followers}</text>
+    <rect x="430" y="170" width="140" height="45" rx="10" ry="10" fill="rgba(255,255,255,0.15)"/>
+    <text x="440" y="200" font-size="16">Followers: ${followers}</text>
 
-    <rect x="590" y="150" width="120" height="50" rx="12" ry="12" fill="rgba(255,255,255,0.2)"/>
-    <text x="600" y="180" font-size="18">Contribs: ${contributions}</text>
+    <rect x="585" y="170" width="140" height="45" rx="10" ry="10" fill="rgba(255,255,255,0.15)"/>
+    <text x="595" y="200" font-size="16">Contribs: ${contributions}</text>
 
-    <rect x="450" y="205" width="260" height="35" rx="12" ry="12" fill="rgba(255,255,255,0.2)"/>
-    <text x="460" y="230" font-size="16">Pinned Projects: ${pinned}</text>
+    <rect x="430" y="220" width="295" height="30" rx="10" ry="10" fill="rgba(255,255,255,0.15)"/>
+    <text x="440" y="242" font-size="14">Pinned Projects: ${pinned}</text>
   </g>
 </svg>`;
 }
