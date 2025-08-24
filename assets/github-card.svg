@@ -17,7 +17,7 @@
   <rect x="10" y="10" rx="25" ry="25" width="730" height="230" fill="url(#grad)" filter="url(#shadow)"/>
 
   <!-- 头像 -->
-  <image href="https://avatars.githubusercontent.com/u/47963641?v=4" x="30" y="65" width="120" height="120" mask="url(#avatarMask)"/>
+  <image href="https://github.com/jaxo4life/jaxo4life/blob/main/assets/avatar.png" x="30" y="65" width="120" height="120" mask="url(#avatarMask)"/>
 
   <!-- 用户名和简介 -->
   <text x="170" y="100" font-size="30" fill="white" font-family="Fira Code" font-weight="bold">jaxo4life</text>
