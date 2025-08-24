@@ -13,10 +13,6 @@
   <img src="assets/github-card.svg" alt="GitHub Stats Card" width="95%">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaxo4life&theme=react-dark&bg_color=0D1117&color=58A6FF&line=2F81F7&point=FFFFFF&hide_border=true" width="95%"/>
-</p>
-
 ---
 
 ### 📂 我的项目
@@ -34,6 +30,12 @@
   <a href="https://github.com/jaxo4life/liteproxy">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=liteproxy&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
   </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaxo4life&theme=react-dark&bg_color=0D1117&color=58A6FF&line=2F81F7&point=FFFFFF&hide_border=true" width="95%"/>
 </p>
 
 ---
