@@ -34,7 +34,7 @@ async function fetchStats() {
   const contributions = user.public_repos * 10; // 简单示例
 
   return {
-    avatarUrl: user.avatar_url,
+    avatarUrl: "https://github.com/jaxo4life/jaxo4life/blob/main/assets/avatar.png",
     name: user.login,
     bio: user.bio || 'Full-stack & Blockchain',
     repos: user.public_repos,
