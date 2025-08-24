@@ -1,25 +1,8 @@
 <!-- 封面 Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&random=false&width=600&lines=Hi+there!+👋;I'm+jaxo;Full-stack+developer+%26+Blockchain+enthusiast;Always+learning+%26+building+🚀" alt="Typing SVG" />
-</p>
+  
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi+there!+👋;I'm+jaxo;Full-stack+developer+%26+Blockchain+enthusiast;Always+learning+%26+building+🚀)
 
----
-
-### 📂 精选项目 Showcase
-
-<p align="center">
-  <a href="https://github.com/jaxo4life/XMark">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=XMark&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
-  </a>
-  <a href="https://github.com/jaxo4life/LiteMouse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=LiteMouse&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/jaxo4life/liteproxy">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=liteproxy&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
-  </a>
 </p>
 
 ---
@@ -35,6 +18,25 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaxo4life&theme=react-dark&bg_color=0D1117&color=58A6FF&line=2F81F7&point=FFFFFF&hide_border=true" width="95%"/>
+</p>
+
+---
+
+### 📂 我的项目
+
+<p align="center">
+  <a href="https://github.com/jaxo4life/XMark">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=XMark&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
+  </a>
+  <a href="https://github.com/jaxo4life/LiteMouse">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=LiteMouse&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jaxo4life/liteproxy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=liteproxy&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
+  </a>
 </p>
 
 ---
