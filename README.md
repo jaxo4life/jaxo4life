@@ -46,7 +46,9 @@
 
 ### 🌐 Find me
 <p align="center">
-  <a href="https://x.com/realjaxo"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://x.com/realjaxo" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/jaxo-1DA1F2?style=for-the-badge&logo=X&logoColor=white"/>
+  </a>
 </p>
 
 ---
