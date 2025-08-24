@@ -128,17 +128,17 @@ function generateSVG({ avatarUrl, name, bio, repos, stars, followers, contributi
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Fira Code', monospace" fill="#ffffff" font-weight="700">
     <!-- pill 样式参数 -->
     <g opacity="0.9">
-      <rect x="160" y="168" width="125" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
-      <rect x="300" y="168" width="125" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
-      <rect x="440" y="168" width="125" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
-      <rect x="590" y="168" width="145" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
-      <rect x="160" y="220" width="200" height="30" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
+      <rect x="160" y="168" width="110" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
+      <rect x="285" y="168" width="110" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
+      <rect x="410" y="168" width="150" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
+      <rect x="575" y="168" width="145" height="46" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
+      <rect x="160" y="220" width="180" height="30" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
     </g>
 
     <text x="170" y="197" font-size="16">Repos: ${repos}</text>
-    <text x="310" y="197" font-size="16">Stars: ${stars}</text>
-    <text x="450" y="197" font-size="16">Contribs: ${contributions}</text>
-    <text x="600" y="197" font-size="16">Followers: ${followers}</text>
+    <text x="295" y="197" font-size="16">Stars: ${stars}</text>
+    <text x="420" y="197" font-size="16">Contribs: ${contributions}</text>
+    <text x="585" y="197" font-size="16">Followers: ${followers}</text>
     <text x="170" y="241" font-size="14" font-weight="600">Pinned Projects: ${pinned}</text>
   </g>
 </svg>`;
