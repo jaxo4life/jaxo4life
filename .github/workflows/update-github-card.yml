@@ -20,5 +20,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/github-card.svg
-          git commit -m "Update GitHub Stats Card"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update github-card.svg"
+            git push
+          fi
