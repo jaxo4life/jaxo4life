@@ -27,6 +27,9 @@
   <a href="https://github.com/jaxo4life/liteproxy">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=liteproxy&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
   </a>
+  <a href="https://github.com/jaxo4life/DLEasy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jaxo4life&repo=DLEasy&theme=radical&border_color=2F81F7&bg_color=0D1117&title_color=58A6FF&icon_color=F8D866" />
+  </a>
 </p>
 
 ---
