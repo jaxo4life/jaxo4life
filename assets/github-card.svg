@@ -53,9 +53,9 @@
       <rect x="160" y="220" width="180" height="30" rx="12" ry="12" fill="rgba(255,255,255,0.12)"/>
     </g>
 
-    <text x="170" y="197" font-size="16">Repos: 52</text>
-    <text x="295" y="197" font-size="16">Stars: 16</text>
-    <text x="420" y="197" font-size="16">Contribs: 520</text>
+    <text x="170" y="197" font-size="16">Repos: 51</text>
+    <text x="295" y="197" font-size="16">Stars: 15</text>
+    <text x="420" y="197" font-size="16">Contribs: 510</text>
     <text x="585" y="197" font-size="16">Followers: 0</text>
     <text x="170" y="241" font-size="14" font-weight="600">Pinned Projects: 6</text>
   </g>
